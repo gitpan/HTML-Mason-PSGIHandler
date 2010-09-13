@@ -1,0 +1,47 @@
+{
+   "abstract" : "PSGI handler for HTML::Mason",
+   "author" : [
+      "Ask Bj\u00c3\u00b8rn Hansen <ask@develooper.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.102340, CPAN::Meta::Converter version 2.101670",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "HTML-Mason-PSGIHandler",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "CGI::PSGI" : 0,
+            "HTML::Mason" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Plack::Test" : 0,
+            "Test::More" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/abh/HTML-Mason-PSGIHandler/issues"
+      },
+      "homepage" : "http://search.cpan.org/dist/HTML-Mason-PSGIHandler/",
+      "repository" : {
+         "url" : "http://github.com/abh/HTML-Mason-PSGIHandler"
+      }
+   },
+   "version" : "0.50"
+}
+
