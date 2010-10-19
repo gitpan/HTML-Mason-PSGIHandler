@@ -4,7 +4,7 @@
       "Ask Bj\u00c3\u00b8rn Hansen <ask@develooper.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.102340, CPAN::Meta::Converter version 2.101670",
+   "generated_by" : "Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.101670",
    "license" : [
       "perl_5"
    ],
@@ -42,6 +42,6 @@
          "url" : "http://github.com/abh/HTML-Mason-PSGIHandler"
       }
    },
-   "version" : "0.50"
+   "version" : "0.51"
 }
 

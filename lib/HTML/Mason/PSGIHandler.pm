@@ -1,6 +1,6 @@
 package HTML::Mason::PSGIHandler;
 BEGIN {
-  $HTML::Mason::PSGIHandler::VERSION = '0.50';
+  $HTML::Mason::PSGIHandler::VERSION = '0.51';
 }
 use strict;
 use 5.008_001;
@@ -46,7 +46,7 @@ sub handle_psgi {
 
     die if $@;
 
-    return [ $r->psgi_header, [ $output ] ];
+    return [ $r->psgi_header(-Status => $result[0]), [ defined $output ? $output : () ] ];
 }
 
 sub HTML::Mason::FakeApache::psgi_header {
@@ -54,7 +54,7 @@ sub HTML::Mason::FakeApache::psgi_header {
     my $h = $self->headers_out;
     my $e = $self->err_headers_out;
 
-    my %args = (tied(%$h)->cgi_headers, tied(%$e)->cgi_headers);
+    my %args = (tied(%$h)->cgi_headers, tied(%$e)->cgi_headers, @_);
     if (exists $h->{Location}) {
         %args = (%args, -Status => 302);
     }
@@ -64,7 +64,7 @@ sub HTML::Mason::FakeApache::psgi_header {
 
 package HTML::Mason::Request::PSGI;
 BEGIN {
-  $HTML::Mason::Request::PSGI::VERSION = '0.50';
+  $HTML::Mason::Request::PSGI::VERSION = '0.51';
 }
 use strict;
 use base qw(HTML::Mason::Request::CGI);

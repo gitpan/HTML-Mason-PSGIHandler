@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     'CGI::PSGI' => '0',
     'HTML::Mason' => '0'
   },
-  'VERSION' => '0.50',
+  'VERSION' => '0.51',
   'test' => {
     'TESTS' => 't/*.t'
   }

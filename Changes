@@ -1,7 +1,11 @@
 Revision history for HTML-Mason-PSGIHandler
 
+0.51  October 18, 2010
+  - For body-less response, don't return an undef body element (Chia-liang Kao)
+  - Pass Mason -Status into psgi_header (Shawn M Moore)
+
 0.50  September 12, 2010
-      - First CPAN release
+  - First CPAN release
 
 0.01  September 30, 2009
-      - original version
+  - Original version
