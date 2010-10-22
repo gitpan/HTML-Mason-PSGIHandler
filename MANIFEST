@@ -9,6 +9,7 @@ README
 SIGNATURE
 dist.ini
 lib/HTML/Mason/PSGIHandler.pm
+lib/HTML/Mason/PSGIHandler/Streamy.pm
 t/00-compile.t
 t/hello.mhtml
 t/hello.t
@@ -19,3 +20,4 @@ t/release-has-version.t
 t/release-no-tabs.t
 t/release-pod.t
 t/release-synopsis.t
+t/streamy.t

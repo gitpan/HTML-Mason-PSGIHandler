@@ -21,4 +21,4 @@ resources:
   bugtracker: http://github.com/abh/HTML-Mason-PSGIHandler/issues
   homepage: http://search.cpan.org/dist/HTML-Mason-PSGIHandler/
   repository: http://github.com/abh/HTML-Mason-PSGIHandler
-version: 0.51
+version: 0.52
