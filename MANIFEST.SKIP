@@ -10,4 +10,4 @@
 ^MakeMaker-\d
 \.gz$
 \.cvsignore
-
+^MYMETA\.

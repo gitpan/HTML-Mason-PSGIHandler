@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.64.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,20 +14,20 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 604e87a31ce1b9c633425b43fc886af71b140203 Changes
-SHA1 112ca99a4be1c9512d100cf9f00b5f479f265152 LICENSE
+SHA1 43ae961ab7dad78168669f03127799a334209e22 Changes
+SHA1 b9cc9f0f9d5d526f015b0ecea32fbbeb0332dac5 LICENSE
 SHA1 879f6c016c15c59b0770881b96bcbf83b2e4a6aa MANIFEST
-SHA1 bc9e43d92c07e0980dac90851a310b80948c52ca MANIFEST.SKIP
-SHA1 87485bfeb69ba2aa5f71215ba770c016f0626bd9 META.json
-SHA1 cfda5496e883d13c53c5962d84f2d16dd43f9f3c META.yml
-SHA1 1460ab414d1c40b3d9d27406bca67cc45f781f72 Makefile.PL
-SHA1 03d1600763f1e0d00c35ca5323607094b9e7a122 README
-SHA1 59d4bc3c34b0ef8dd132eeb69651918c64d927de dist.ini
-SHA1 7ba5ae7b9eb3ede64d1b563cbbcebb962f76e876 lib/HTML/Mason/PSGIHandler.pm
-SHA1 382593d0f18454520f86995c2aa33bda5b74f075 lib/HTML/Mason/PSGIHandler/Streamy.pm
-SHA1 9ff1d8b9e15ed7c95dddd474e8299df7d3c39f72 t/00-compile.t
+SHA1 92ab048f85ae8b5543754857a5f789d17ffe3472 MANIFEST.SKIP
+SHA1 2f319c9c27748a039ae962040f38415ff77715c4 META.json
+SHA1 a2e2b7d7f65b9c0844a99251b73b77809cdbba87 META.yml
+SHA1 70c4bafe8946cd5b9e22eeaf87bb3b68b3eb09cc Makefile.PL
+SHA1 44d69a40c8430f04686fea7ce6be7fdb6fde4726 README
+SHA1 0a8fd225d0598a151bea04a2114d79ae3f0ce8ff dist.ini
+SHA1 a4bb66ba0222be73a5a69ebad3db95f16ed00b99 lib/HTML/Mason/PSGIHandler.pm
+SHA1 72d39b5a6440b0019cf4fab8280aa47a67b97ffd lib/HTML/Mason/PSGIHandler/Streamy.pm
+SHA1 becd1816dfa1e94e6520f88b82b4b4e000c9518d t/00-compile.t
 SHA1 24a0dd89d2c74aa1a686019e79a21393ef698e94 t/hello.mhtml
-SHA1 d436ddbf29d83e14a76aeca4637abf2f3dc32262 t/hello.t
+SHA1 0b764f944db6f369dd350c273977422ae5f6b953 t/hello.t
 SHA1 87768d177f8c2e2df9c591cde869e7c8a245555e t/release-dist-manifest.t
 SHA1 bf8570ef6888d79ca6a0c9e21b206b904b0775e2 t/release-distmeta.t
 SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
@@ -37,11 +37,9 @@ SHA1 4b471f98a7be51713c8331a647684465226f204b t/release-pod.t
 SHA1 99b0f34fa0bb7f32ef4b6995f872f6eb20db7815 t/release-synopsis.t
 SHA1 7fdcfa4a774a4d249d376ab2455761e25e34cae0 t/streamy.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.2.2 (Darwin)
+Version: GnuPG v1.4.14 (Darwin)
 
-iQCVAwUBTMFzgPkoKP1ixIspAQIejAP/XAcsMC5S41fDpw7XTyXE4OZMHEJO2tc8
-XDjmsZnzjL/OUZ21yyu0vFT+I2rWTQZuktD741dz742UtCJB/GqTLqlzW26iEc3E
-9yjKCkqyaJhJP7xfnpZcGB2RO+UpktcBnm/nMJ7qCtforY6jZxvr02ZFGsdONQpF
-MK7BK+7vgOc=
-=9qDk
+iEYEARECAAYFAlIwUV4ACgkQvH6dkeDZaS+YjACfYPg04b8dlI6wGGh3QaNSvdyi
+kGAAnjkCOcv3M8uQPOhS+mxST9q6NaGB
+=1oA3
 -----END PGP SIGNATURE-----

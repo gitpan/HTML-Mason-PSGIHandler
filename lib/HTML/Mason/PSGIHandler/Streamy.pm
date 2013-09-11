@@ -1,6 +1,6 @@
 package HTML::Mason::PSGIHandler::Streamy;
-BEGIN {
-  $HTML::Mason::PSGIHandler::Streamy::VERSION = '0.52';
+{
+  $HTML::Mason::PSGIHandler::Streamy::VERSION = '0.53'; # TRIAL
 }
 use strict;
 use 5.008_001;
