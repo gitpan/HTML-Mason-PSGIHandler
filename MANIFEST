@@ -13,6 +13,7 @@ lib/HTML/Mason/PSGIHandler/Streamy.pm
 t/00-compile.t
 t/hello.mhtml
 t/hello.t
+t/leaks.t
 t/release-dist-manifest.t
 t/release-distmeta.t
 t/release-eol.t

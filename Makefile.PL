@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "PSGI handler for HTML::Mason",
-  "AUTHOR" => "Ask Bj\303\270rn Hansen <ask\@develooper.com>",
+  "AUTHOR" => "Tatsuhiko Miyagawa <miyagawa\@bulknews.net>, Ask Bj\303\270rn Hansen <ask\@develooper.com>, Ricardo Signes <rjbs\@cpan.org>, Ruslan Zakirov <ruz\@bestpractical.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -24,6 +24,8 @@ my %WriteMakefileArgs = (
     "HTML::Mason" => 0
   },
   "TEST_REQUIRES" => {
+    "IO::Handle" => 0,
+    "IPC::Open3" => 0,
     "Plack::Test" => 0,
     "Test::More" => 0
   },

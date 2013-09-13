@@ -1,6 +1,6 @@
 package HTML::Mason::PSGIHandler::Streamy;
 {
-  $HTML::Mason::PSGIHandler::Streamy::VERSION = '0.53'; # TRIAL
+  $HTML::Mason::PSGIHandler::Streamy::VERSION = '0.53';
 }
 use strict;
 use 5.008_001;
@@ -49,13 +49,14 @@ sub handle_psgi {
 
     return sub {
         $responder = shift;
-        my @result = $self->invoke_mason($r, $p);
+        my @result = $self->invoke_mason(\%args, $p);
         die if $@; # XXX: format 500?
         unless ($writer) {
             return $responder->([$r->psgi_header(-Status => $result[0]), []]);
         }
         undef $responder;
         $writer->close();
+        undef $writer;
     }
 
 }
